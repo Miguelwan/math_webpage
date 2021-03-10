@@ -1,0 +1,17 @@
+.container {
+      display: flex;
+}
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a::after {
+  content: " | ";
+}
+#left_menu{
+    width: 30%;
+    background-color: green;
+}
+#main_text{
+    width: 70%;
+}
