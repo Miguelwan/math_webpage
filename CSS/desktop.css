@@ -4,3 +4,12 @@
 #main_text{
     width: 80%;
 }
+.two_blocks {
+      display: flex;
+}
+#second_row{
+    width: 50%;
+}
+#third_row{
+    width: 50%;
+}

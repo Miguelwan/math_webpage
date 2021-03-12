@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+   background-color:  #c7c2c1;
 }
 header {
     font-size: 1.6rem;
@@ -12,11 +13,14 @@ header {
 footer {
     background-color: green;
     text-align: right;
-    color:white;
+    color: white;
 }
 a {
-    color: blue;
+    color: #000099;
     text-decoration: none;    
+}
+a:hover {
+    color: blue;
 }
 a:active {
     color: red;
@@ -34,10 +38,21 @@ img {
     font-size: 1.6rem;
 }
 .container h2,
-.container h3,
-.container p{
+.container h3{
     margin-top: 5px;
     margin-left: 5px;
+    margin-right: 10px;
+} 
+.container p,
+.container dt{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: justify;
+    margin-right: 10px;
+} 
+.container dd{
+    margin-top: 5px;
+    margin-left: 30px;
     text-align: justify;
     margin-right: 10px;
 } 
@@ -45,6 +60,7 @@ img {
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
+    text-align: right;
     background-color: green;
 }
 .left-nav {
@@ -60,7 +76,7 @@ img {
 .main-nav__item a,
 .left-nav__item a
 {
-    color: black;
+    color: #c7c2c1;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
@@ -77,5 +93,6 @@ img {
 {
     color: red;
 }
+
 
 
