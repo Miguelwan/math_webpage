@@ -12,4 +12,5 @@
 }
 #third_row{
     width: 50%;
+    border-left: 2px solid black;
 }
