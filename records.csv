@@ -1,4 +1,4 @@
-Speaker;Title;Repository;Date;Kind;Passcode
+"Speaker";"Title";"Repository";"Date";"Kind";"Passcode"
 "Abramsky, Samson";"The logic of contextuality";"https://zoom.us/rec/play/FK7Z-Gw6vjpyI3cncYJ9l8HxlnOXYSe67Wfrf1V50fl8AuzAfQ_NiwgvBzGxRGGsMQYK-_G9culO4LXB.H224IWUNYGmOjGBX?continueMode=true&_x_zm_rtaid=zss64e_NTPG4y5CJFXexdQ.1604681529772.96a87f916c86bbbf3b280af86246301f&_x_zm_rhtaid=650";"November 6, 2020";"seminar";
 "Adam-Day, Samuel";"The continuous gradability of the cut-point orders of R-trees";"https://youtu.be/gOkD3bXynQo";"May 19, 2021";"seminar";
 "Anscombe, Sylvy";"Diophantine subsets and subfields of large fields";"https://zoom.us/rec/play/znNz6MtzDlRpBC79MwGqCYeeY9NkJ6TLWM1RV0YPSGIltKpf0J7EZNyQ8snF4q_lJnIJMgWRg9XMPinl.RXGGPGV6_hTDgrDY?continueMode=true&_x_zm_rtaid=21NjbJXjSt26G3gadSJyzg.1607036351365.4d0e96540c21ad0a8f97c1381fb2eb2e&_x_zm_rhtaid=605";"December 2, 2020";"seminar";
@@ -118,5 +118,6 @@ Speaker;Title;Repository;Date;Kind;Passcode
 "Zilber, Boris";"Syntax, definability and geometry";"https://drive.google.com/file/d/1HlFiBzWfl1wUjkohwSh4wgUa1l-FrmRE/view";"May 13, 2020";"seminar";
 "Zou, Tingxiang";"Geometric random graphs";"http://www.math.uni-konstanz.de/~eleftheriou/TDE/Zoom5.mp4";"January 18, 2021";"seminar";
 "Primera Jornada de Lógica Matemática Colombia/Costa Rica";"Una aplicación de Teoría de Modelos en Ecuaciones Diferenciales";"https://youtu.be/46uekwAR6Mg";"March 3, 2021";"conference"; 
-
+"Boxall, Gareth";"Some finiteness results concerning points on a curve with a power on a curve";"http://www1.maths.leeds.ac.uk/~pmtpe/TDE/zoom19.mp4";"August 2, 2021";"seminar";
+"Fornasiero, Antongiulio";"O-minimal structures with many dense substructures";"http://www1.maths.leeds.ac.uk/~pmtpe/TDE/zoom17.mp4";"July 5, 2021";"seminar";
 
