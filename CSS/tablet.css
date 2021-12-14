@@ -1,6 +1,7 @@
 .container {
       display: flex;
 }
+
 .main-nav__item{
     display: inline-block;
 }
