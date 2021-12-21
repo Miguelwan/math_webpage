@@ -1,5 +1,24 @@
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    margin: 0rem;
+    background-color: #c7c2c1;
+    z-index: 1;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    margin: 0rem;
+    z-index: 1;
+}
+
 .container {
       display: flex;
+      margin-top:11rem;
 }
 
 .main-nav__item{
@@ -12,7 +31,11 @@
 #left_menu{
     width: 30%;
     background-color: green;
+    padding-top: 1px;
+    position: fixed;
+    height: 100%
 }
 #main_text{
-    width: 70%;
+    width: 100%;
+    padding-left:30%;*/
 }

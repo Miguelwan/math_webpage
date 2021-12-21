@@ -3,76 +3,93 @@
     padding: 0;
     margin: 0;
 }
+
 html {
     font-size: 62.5%;
    background-color:  #c7c2c1;
 }
+
 header {
     font-size: 1.6rem;
 }
+
 footer {
     background-color: green;
     text-align: right;
     color: white;
 }
+
 a {
     color: #000099;
     text-decoration: none;    
 }
+
 a:hover {
     color: blue;
 }
+
 a:active {
     color: red;
 }
+
 figure {
     background-color: black;
 }
+
 img {
     width: 100%;
 }
+
 .name{
         margin: 2px;
 }
+
 .container {
     font-size: 1.6rem;
 }
+
 .container h2,
 .container h3{
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 10px;
-} 
+}
+
 .container p,
 .container dt{
     margin-top: 5px;
     margin-left: 5px;
     text-align: justify;
     margin-right: 10px;
-} 
+}
+
 .container dd{
     margin-top: 5px;
     margin-left: 35px;
     text-align: justify;
     margin-right: 10px;
-} 
+}
+
 .main-nav {
     margin-top: 10px;
-    list-style: none;
-    padding-left: 0;
     text-align: right;
-    background-color: green;
 }
+
+.main-nav,
 .left-nav {
     list-style: none;
+    padding-bottom: 1rem;
     padding-left: 0;
     background-color: green;
 }
+
 .main-nav__item,
 .left-nav__item 
 {
     text-align: center;
+    padding-top: 1rem;
 }
+
 .main-nav__item a,
 .left-nav__item a
 {
@@ -88,6 +105,7 @@ img {
 {
     color: blue;
 }
+
 .main-nav__item a:active,
 .left-nav__item a:active
 {
