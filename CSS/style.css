@@ -112,5 +112,7 @@ img {
     color: red;
 }
 
-
+.no_fix_nav{
+    display: none;
+}
 
