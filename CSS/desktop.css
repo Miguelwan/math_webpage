@@ -16,3 +16,11 @@
     width: 50%;
     border-left: 2px solid black;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    margin: 0rem;
+    z-index: 1;
+}

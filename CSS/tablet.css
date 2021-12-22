@@ -16,17 +16,10 @@
     background-color: #c7c2c1;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%; 
-    margin: 0rem;
-    z-index: 1;
-}
+
 
 .container {
       display: flex;
-
 }
 
 .main-nav__item{
@@ -43,5 +36,4 @@ footer{
 }
 #main_text{
     width: 100%;
-/*    padding-left:30%;*/
 }
