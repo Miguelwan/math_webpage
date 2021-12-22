@@ -1,11 +1,18 @@
 
-header{
+.fix_nav{
     position: fixed;
     top: 0;
     width: 100%; 
     margin: 0rem;
     background-color: #c7c2c1;
     z-index: 1;
+}
+
+.no_fix_nav{
+    top: 0;
+    width: 100%; 
+    margin: 0rem;
+    background-color: #c7c2c1;
 }
 
 footer{
@@ -18,7 +25,7 @@ footer{
 
 .container {
       display: flex;
-      margin-top:11rem;
+
 }
 
 .main-nav__item{
@@ -36,7 +43,7 @@ footer{
     height: 100%
 }
 #main_text{
-    padding-top: 2rem;
+
     width: 100%;
-    padding-left:30%;*/
+    padding-left:30%;
 }
