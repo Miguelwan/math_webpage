@@ -40,10 +40,8 @@ footer{
     width: 30%;
     background-color: green;
     padding-top: 1px;
-    position: fixed;
-    height: 100%
 }
 #main_text{
     width: 100%;
-    padding-left:30%;
+/*    padding-left:30%;*/
 }
