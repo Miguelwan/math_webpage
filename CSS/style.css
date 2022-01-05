@@ -17,6 +17,8 @@ footer {
     background-color: green;
     text-align: right;
     color: white;
+    font-size: 1.4rem;
+    padding-top: 4px;
 }
 
 a {
