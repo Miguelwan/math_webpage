@@ -1,130 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Mathematical researcher" />
-        <meta name="robots" content= "index,follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Miguel Moreno</title>
-        <link   
-            rel="stylesheet" href="./CSS/style.css"
-        />
-        
-        <link
-            rel="stylesheet"
-            href="./CSS/tablet.css"
-            media="screen and (min-width: 600px)"
-        />
-
-        <link
-            rel="stylesheet"
-            href="./CSS/desktop.css"
-            media="screen and (min-width: 1100px)"
-        />
-    </head>
-    <body>
-        <header>
-            <div class="fix_nav">
-                <div class="name">
-                    <h1>Miguel Moreno</h1>
-                    <p><h3>Postdoctoral researcher, <a  href="http://www.logic.univie.ac.at/Home.html"> 
-                    Institute of Mathematics, University of Vienna</a>.</h3></p>
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="http://miguelmath.com">Home</a></li>
-                        <li class="main-nav__item"><a href="Applied.html">Applications of Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Pure.html">Pure Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Popular.html">Popular Science</a> 
-                        <li class="main-nav__item"><a href="Extenr.html">Events and Links</a></li>
-                        <li class="main-nav__item"><a href="Contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="no_fix_nav">
-                <div class="name">
-                    <h1>Miguel Moreno</h1>
-                    <p><h3>Postdoctoral researcher, <a  href="http://www.logic.univie.ac.at/Home.html"> 
-                    Institute of Mathematics, University of Vienna</a>.</h3></p>
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="http://miguelmath.com">Home</a></li>
-                        <li class="main-nav__item"><a href="Applied.html">Applications of Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Pure.html">Pure Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Popular.html">Popular Science</a> 
-                        <li class="main-nav__item"><a href="Extenr.html">Events and Links</a></li>
-                        <li class="main-nav__item"><a href="Contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="container">
-            <div id="left_menu">
-                <figure>
-                    <img
-                        src="./heads/perfil2.jpg"
-                        alt="Picture of Colombia"
-                    />
-                </figure>
-                <nav>
-                    <ul class="left-nav">
-                        <li class="left-nav__item"><a href="Events.html">Forthcoming Events</a></li>
-                        <li class="left-nav__item"><a href="webminars.html">Schedule and Upcoming Online Seminars</a></li>
-                        <li class="left-nav__item"><a href="talksdir.html">Recorded Talks by Speaker</a> 
-                        <li class="left-nav__item"><a href="talkschro.html">Recorded Talks by Date</a></li>
-                        <li class="left-nav__item"><a href="Links.html">External Links</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="main_text">
-                <h2>Online seminars and talks in Logic</h2>
-                <p>
-                    Due to the current situation in the world, some Logic seminars will be held online for some time. The following is a list of some online seminars, a list of recorded ordered by spaker can be found <a href="talksdir.html">here</a> or in a chronological order <a href="talkschro.html">here</a>.
-                </p>
-                <p>
-                    I will try to keep the list up to date. If you know about a seminar that will be held online and the organizers want to share the information about it, let me know; information about seminars that upload the talks is also welcome. Other webpages about online seminars in mathematics: 
-                </p>
-                <br>
-                <dl>
-                    <dt>
-                        <strong>Logic talks online</strong>
-                    </dt>
-                    <dd>
-                        <a href="http://math.cmu.edu/~abernsht/logic_talks_online/">webpage</a>
-                    </dd> 
-                    <br>
-                    <dt>
-                       <strong> Math Seminars</strong>
-                    </dt>
-                    <dd>
-                        <a href="https://mathseminars.org">webpage</a>
-                    </dd>
-                </dl>
-                <br>
-                <p>
-                    The information about online seminars and events is divided in two sections. A <strong>schedule</strong> by day with the usual time (local time and GMT) of the seminars, the seminars with a webpage have a link on the information. An <strong>upcoming</strong> section with information about the next seminar talks (speaker, title, etc).
-                </p>
-                <p>
-                    Only public information is shared in the list (seminar's webpage and the information that organizers want to make public), you can find the link to the talks in the respective webpages or by contacting the organizers.   
-                </p>
-                <br>
-                <p>
-                    <strong>Note:</strong> Double check the local time at the seminar's webpage when planning to attend to the seminars to not miss them.
-                </p>
-                <br>
-                <br>
-                <div  class="two_blocks">
-                    <div id="second_row">
-                        <h2>Upcoming Talks</h2>
-                        <br>
-                        
-
-                        <h3>Monday</h3>
-                        
-                        
-                        <dl>
-                        <!--
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="Mathematical researcher" name="description"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Miguel Moreno
+  </title>
+  <link href="./CSS/style.css" rel="stylesheet"/>
+  <link href="./CSS/tablet.css" media="screen and (min-width: 600px)" rel="stylesheet"/>
+  <link href="./CSS/desktop.css" media="screen and (min-width: 1100px)" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="fix_nav">
+    <div class="name">
+     <h1>
+      Miguel Moreno
+     </h1>
+     <p>
+      <h3>
+       Postdoctoral researcher,
+       <a href="http://www.logic.univie.ac.at/Home.html">
+        Institute of Mathematics, University of Vienna
+       </a>
+       .
+      </h3>
+     </p>
+    </div>
+    <nav>
+     <ul class="main-nav">
+      <li class="main-nav__item">
+       <a href="http://miguelmath.com">
+        Home
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Applied.html">
+        Applications of Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Pure.html">
+        Pure Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Popular.html">
+        Popular Science
+       </a>
+       <li class="main-nav__item">
+        <a href="Extenr.html">
+         Events and Links
+        </a>
+       </li>
+       <li class="main-nav__item">
+        <a href="Contact.html">
+         Contact
+        </a>
+       </li>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="no_fix_nav">
+    <div class="name">
+     <h1>
+      Miguel Moreno
+     </h1>
+     <p>
+      <h3>
+       Postdoctoral researcher,
+       <a href="http://www.logic.univie.ac.at/Home.html">
+        Institute of Mathematics, University of Vienna
+       </a>
+       .
+      </h3>
+     </p>
+    </div>
+    <nav>
+     <ul class="main-nav">
+      <li class="main-nav__item">
+       <a href="http://miguelmath.com">
+        Home
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Applied.html">
+        Applications of Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Pure.html">
+        Pure Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Popular.html">
+        Popular Science
+       </a>
+       <li class="main-nav__item">
+        <a href="Extenr.html">
+         Events and Links
+        </a>
+       </li>
+       <li class="main-nav__item">
+        <a href="Contact.html">
+         Contact
+        </a>
+       </li>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container">
+   <div id="left_menu">
+    <figure>
+     <img alt="Picture of Colombia" src="./heads/perfil2.jpg"/>
+    </figure>
+    <nav>
+     <ul class="left-nav">
+      <li class="left-nav__item">
+       <a href="Events.html">
+        Forthcoming Events
+       </a>
+      </li>
+      <li class="left-nav__item">
+       <a href="webminars.html">
+        Schedule and Upcoming Online Seminars
+       </a>
+      </li>
+      <li class="left-nav__item">
+       <a href="talksdir.html">
+        Recorded Talks by Speaker
+       </a>
+       <li class="left-nav__item">
+        <a href="talkschro.html">
+         Recorded Talks by Date
+        </a>
+       </li>
+       <li class="left-nav__item">
+        <a href="Links.html">
+         External Links
+        </a>
+       </li>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div id="main_text">
+    <h2>
+     Online seminars and talks in Logic
+    </h2>
+    <p>
+     Due to the current situation in the world, some Logic seminars will be held online for some time. The following is a list of some online seminars, a list of recorded ordered by spaker can be found
+     <a href="talksdir.html">
+      here
+     </a>
+     or in a chronological order
+     <a href="talkschro.html">
+      here
+     </a>
+     .
+    </p>
+    <p>
+     I will try to keep the list up to date. If you know about a seminar that will be held online and the organizers want to share the information about it, let me know; information about seminars that upload the talks is also welcome. Other webpages about online seminars in mathematics:
+    </p>
+    <br/>
+    <dl>
+     <dt>
+      <strong>
+       Logic talks online
+      </strong>
+     </dt>
+     <dd>
+      <a href="http://math.cmu.edu/~abernsht/logic_talks_online/">
+       webpage
+      </a>
+     </dd>
+     <br/>
+     <dt>
+      <strong>
+       Math Seminars
+      </strong>
+     </dt>
+     <dd>
+      <a href="https://mathseminars.org">
+       webpage
+      </a>
+     </dd>
+    </dl>
+    <br/>
+    <p>
+     The information about online seminars and events is divided in two sections. A
+     <strong>
+      schedule
+     </strong>
+     by day with the usual time (local time and GMT) of the seminars, the seminars with a webpage have a link on the information. An
+     <strong>
+      upcoming
+     </strong>
+     section with information about the next seminar talks (speaker, title, etc).
+    </p>
+    <p>
+     Only public information is shared in the list (seminar's webpage and the information that organizers want to make public), you can find the link to the talks in the respective webpages or by contacting the organizers.
+    </p>
+    <br/>
+    <p>
+     <strong>
+      Note:
+     </strong>
+     Double check the local time at the seminar's webpage when planning to attend to the seminars to not miss them.
+    </p>
+    <br/>
+    <br/>
+    <div class="two_blocks">
+     <div id="second_row">
+      <h2>
+       Upcoming Talks
+      </h2>
+      <br/>
+      <h3>
+       Monday
+      </h3>
+      <dl>
+       <!--
                             <dt>
                                 <strong>TDE</strong> Topological and Differential Expansions of O-minimal Structures
                             </dt>
@@ -137,7 +239,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>University of Wisconsin</strong> Logic Seminar (Midwest Computability Seminar) 
                             </dt>
@@ -150,7 +252,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>CUNY Logic</strong> MOPA (Models of Peano Arithmetic) Seminar  
                             </dt>
@@ -163,7 +265,7 @@
                             </dd>
                             <br>
                             -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Computability Theory and Applications Online Seminar</strong>  
                             </dt>
@@ -175,15 +277,13 @@
                                 <strong>Title:</strong> Algorithmic randomness and Bayesian convergence
                             </dd>
                         -->
-                            <br>                                  
-                        
-                        </dl>
-                        
-                        <h3>Tuesday</h3>
-
-
-                        <dl> 
-                        <!--                          
+       <br/>
+      </dl>
+      <h3>
+       Tuesday
+      </h3>
+      <dl>
+       <!--                          
                             <dt>
                                 <strong>Tel Aviv</strong> Set Theory Seminar  
                             </dt>
@@ -196,9 +296,9 @@
                             </dd>
                             <br>
                         -->
-                         <!--                       
+       <!--                       
                             <dt>
-                                <strong>Kurt G&#246del Research Center, Vienna</strong> Set Theory Research Seminar  
+                                <strong>Kurt Gödel Research Center, Vienna</strong> Set Theory Research Seminar
                             </dt>
                             <dd>
                                 <strong>Time:</strong> Tuesday 14th December, 3pm local Time (14:00 GMT)   
@@ -209,7 +309,7 @@
                             </dd>
                             <br>
                             -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>University of Notre Dame</strong> Model Theory Seminar  
                             </dt>
@@ -222,7 +322,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Illinois Logic Group</strong> Logic Seminar  
                             </dt>
@@ -262,14 +362,13 @@
                             </dd>  
                             <br>
                         -->
-                            <br>
-                        </dl>
-                        
-                        <h3>Wednesday</h3>
-                        
-                        
-                        <dl>                
-                        <!--
+       <br/>
+      </dl>
+      <h3>
+       Wednesday
+      </h3>
+      <dl>
+       <!--
                             <dt>
                                 <strong>Helsinki Logic Group</strong> Logic Seminar  
                             </dt>
@@ -282,20 +381,30 @@
                             </dd>
                             <br>
                         -->
-                        
-                            <dt>
-                                <strong>Bar-Ilan University and Hebrew University</strong> Logic Seminar
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesday 5th January, 2pm local time (11:00 GMT)
-                                <br>
-                                <strong>Speaker:</strong> Simon Garti
-                                <br>
-                                <strong>Title:</strong> The Galvin Property
-                            </dd>
-                            <br>
-                        
-                        <!--
+       <dt>
+        <strong>
+         Bar-Ilan University and Hebrew University
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesday 5th January, 2pm local time (11:00 GMT)
+        <br/>
+        <strong>
+         Speaker:
+        </strong>
+        Simon Garti
+        <br/>
+        <strong>
+         Title:
+        </strong>
+        The Galvin Property
+       </dd>
+       <br/>
+       <!--
                             <dt>
                                 <strong>Leeds</strong> Models and Sets Seminar
                             </dt>
@@ -308,7 +417,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Paris-Lyon</strong> Logic Seminar 
                             </dt>
@@ -323,7 +432,7 @@
                         
                                                  
                             <dt>
-                                <strong>M&#252nster</strong> Set Theory Seminar  
+                                <strong>Münster</strong> Set Theory Seminar
                             </dt>
                             <dd>
                                 <strong>Time:</strong> Wednesday 22th December, 4:15pm local time (15:15 GMT)
@@ -334,7 +443,7 @@
                             </dd>
                             <br>
                                -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Bristol and Oxford</strong> Logic and Set Theory Seminar 
                             </dt>
@@ -347,7 +456,7 @@
                             </dd>
                             <br>
                         -->
-                         <!--                          
+       <!--                          
                             <dt>
                                 <strong>Barcelona</strong> Set Theory Seminar 
                             </dt>
@@ -360,7 +469,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Imperial College London</strong> Logic and Model Theory Seminar 
                             </dt>
@@ -387,7 +496,7 @@
                         
                         
                             <dt>
-                                <strong>Bogot&#225 Logic Group</strong> Seminario Flotante de Bogot&#225 de L&#243gica Matem&#225tica  
+                                <strong>Bogotá Logic Group</strong> Seminario Flotante de Bogotá de Lógica Matemática
                             </dt>
                             <dd>
                                 <strong>Time:</strong> Wednesday 9th June, 4pm local time (21:00 GMT)  
@@ -410,17 +519,15 @@
                                 <strong>Title:</strong> Local club condensation in extender models 
                             </dd>
                         -->
-                        
-                            <br>
-                        </dl>
-                        
-                        <h3>Thursday</h3>
-                        
-                    
-                        <dl>
-                        <!--
+       <br/>
+      </dl>
+      <h3>
+       Thursday
+      </h3>
+      <dl>
+       <!--
                             <dt>
-                                <strong>Kurt G&#246del Research Center, Vienna</strong> Logic Colloquium  
+                                <strong>Kurt Gödel Research Center, Vienna</strong> Logic Colloquium
                             </dt>
                             <dd>
                                 <strong>Time:</strong> Thursday 16th December, 3pm local Time (13:00 GMT)   
@@ -431,7 +538,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>CMU</strong> Model Theory Seminar  
                             </dt>
@@ -457,7 +564,7 @@
                             </dd>
                             <br>
                         -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Online Logic Seminar</strong>  
                             </dt>
@@ -469,16 +576,13 @@
                                 <strong>Title:</strong> TBA
                             </dd>
                         -->
-                            <br>
-                           
-                            
-                        </dl>
-                        
-                        <h3>Friday</h3>
-                        
-                        
-                        <dl>                           
-                        <!--
+       <br/>
+      </dl>
+      <h3>
+       Friday
+      </h3>
+      <dl>
+       <!--
                             <dt>
                                 <strong>Cross-Alps</strong> Logic Seminar
                             </dt>
@@ -491,7 +595,7 @@
                             </dd>
                             <br>
                             -->
-                        <!--
+       <!--
                             <dt>
                                 <strong>Toronto</strong> Set Theory Seminar  
                             </dt>
@@ -517,7 +621,7 @@
                             </dd>
                             <br>
                         -->
-                          <!-- 
+       <!-- 
                             <dt>
                                 <strong>The Logic Supergroup</strong>
                             </dt>
@@ -530,7 +634,7 @@
                             </dd>
                             <br>
                         -->
-                       <!-- 
+       <!-- 
                             <dt>
                                 <strong>The Logic Supergroup</strong>
                             </dt>
@@ -542,14 +646,15 @@
                                 <strong>Title:</strong> Revenge
                             </dd>
                             <br>
-                       -->     
-                        
-                        </dl>
-                    </div>
-                    <div id="third_row">
-                        <h2>Schedule and Links</h2>
-                        <br>
-                        <!--
+                       -->
+      </dl>
+     </div>
+     <div id="third_row">
+      <h2>
+       Schedule and Links
+      </h2>
+      <br/>
+      <!--
                         <dl>
 
                             <dt>
@@ -563,308 +668,568 @@
                             <br>
                         </dl>
                         -->
-                        <h3>No fixed schedule</h3>
-                        
-                        
-                        <dl>
-
-                            <dt>
-                                <strong>MSRI:</strong> Computability Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Alternating Thursdays and Fridays, 9am USA Pacific time (18:00 GMT). 
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.msri.org/seminars/25206">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Register at the webpage to participate in the seminar and other online activities. Contact the organizer (Valentina Harizanov) for more detailed instructions. 
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>Computability Theory and Applications Online Seminar</strong> 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Varies
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="http://www.computability.org/cta-seminar/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk, videos, and slides available at their webpage
-                            </dd>
-                            <br>
-
-                            
-                            <dt>
-                                <strong>Illinois logic group:</strong> Logic Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Varies
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://calendar.math.illinois.edu/?regexp=Logic+Seminar&interval=next+2+months&use=Find">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-
-                            
-                            <dt>
-                                <strong>The Logic Supergroup</strong> (an alliance of logicians in quarantine)  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Varies
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://sites.google.com/view/logicsupergroup/the-logic-supergroup">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact the organizers to participate. Videos available at their webpage
-                            </dd>
-                            <br>
-                            
-                            
-                        </dl>
-                        
-                        <h3>Monday</h3>
-
-                        
-                        <dl>
-
-                            <dt>
-                                <strong>TDE:</strong> Topological and Differential Expansions of O-minimal Structures  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Modays, 15:30 GMT
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="http://www1.maths.leeds.ac.uk/~pmtpe/TDE/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Zoom id to the talk available at their webpage
-                            </dd>
-                            <br>
-                            
-
-                            <dt>
-                                <strong>CUNY Logic:</strong> MOPA (Models of Peano Arithmetic) Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Tuesdays, 2pm local time (19:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://nylogic.github.io">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Victoria Gitman to participate
-                            </dd>
-                            <br>
-                            
-                            
-                            <dt>
-                                <strong>University of Wisconsin:</strong> Logic Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Mondays, 3pm local time (20:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.math.wisc.edu/logic/seminar.html">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-                            
-                            
-                        </dl>
-                        
-                        <h3>Tuesday</h3>
-
-                        
-                        <dl>
-
-                            <dt>
-                                <strong>Tel Aviv:</strong> Set Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Tuesdays, 11am local time (9:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software 
-                            </dd>
-                            <br>
-                            
-                            
-                            <dt>
-                                <strong> Kurt G&#246del Research Center, Vienna:</strong> Set Theory Seminar
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Tuesdays, 3pm local Time (13:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held using the Zoom software. <a href="https://mathematik.univie.ac.at/en/research/seminars/seminars-at-the-kgrc/research-seminar-in-set-theory/?no_cache=1">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact the organizers to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>University of Notre Dame:</strong> Model Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Tuesdays, 10:45am local time (14:45 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://math.nd.edu/events/calendar/model-theory-seminars/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>CMU:</strong> Logic Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Tuesdays, 3:30pm Pittsburgh time (19:30 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.cmu.edu/math/news-events/logic_seminars.html">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-                            
-                        </dl>
-                        
-                        <h3>Wednesday</h3>
-
-                        
-                        <dl>
-
-                            <dt>
-                                <strong>Helsinki logic group:</strong> Logic Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 12m local time (10:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://wiki.helsinki.fi/display/Logic/Seminar">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>Bar-Ilan University and Hebrew University:</strong> Logic Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 2pm local time (12:00 GMT) 
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://math.biu.ac.il/en/node/864">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Menachem Magidor to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong> Leeds:</strong> Models and Sets Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 13:45 GMT 
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using Microsoft Teams or Zoom software. <a href="https://beaadamday.com/index.php/models-and-sets/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact b.adam-day@leeds.ac.uk to participate. Slides of the talks avaliable at the webpage
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>M&#252nster:</strong> Set Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 3:15pm local time (14:15 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.uni-muenster.de/Logik/Forschung/Research_Seminar_Set_Theory.html">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact rds@wwu.de to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>Paris-Lyon:</strong> Logic Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 3pm local time (14:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using Zoom software. <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/66">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-
-                            
-                            <dt>
-                                <strong>Barcelona:</strong> Set Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 4pm local time (15:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely 
-                                <br>
-                                <strong>Comments:</strong> Please contact bagaria@ub.edu to particpate
-                            </dd>
-                            <br>
-                            
-
-                            <dt>
-                                <strong>Bristol and Oxford:</strong> Logic and Set Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 4pm local time (16:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.bristolmathsresearch.org/events/logic-and-set-theory/">Bristol</a> <a href="http://jdh.hamkins.org/oxford-set-theory-seminar/">Oxford</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Philip Welch to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>Imperial College London:</strong> Logic and Model Theory Seminar  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 4:15pm local time (16:15 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://www.imperial.ac.uk/a-z-research/algebra-and-algebraic-combinatorics/seminars--taught-courses/logic-seminar/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Zaniar Ghadernezhad to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>Caltech:</strong> Logic seminars  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 12m pacific time (19:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="http://www.math.caltech.edu/~logic/">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk available at their webpage
-                            </dd>
-                            <br>
-                            
-
-                            <dt>
-                                <strong>Bogot&#225 Logic Group:</strong> Seminario Flotante de Bogot&#225 de L&#243gica Matem&#225tica  
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Wednesdays, 4pm local time (21:00 GMT) 
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a href="https://sites.google.com/view/bogotalogica/courses-and-seminars/seminario-flotante-logmat">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk, videos, and slides available at their webpage
-                            </dd>	
-                            <br>
-                            
-                        </dl>
-                        
-                        <h3>Thursday</h3>
-
-                        
-                        <dl>
-                        <!--
+      <h3>
+       No fixed schedule
+      </h3>
+      <dl>
+       <dt>
+        <strong>
+         MSRI:
+        </strong>
+        Computability Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Alternating Thursdays and Fridays, 9am USA Pacific time (18:00 GMT).
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.msri.org/seminars/25206">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Register at the webpage to participate in the seminar and other online activities. Contact the organizer (Valentina Harizanov) for more detailed instructions.
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Computability Theory and Applications Online Seminar
+        </strong>
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Varies
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="http://www.computability.org/cta-seminar/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk, videos, and slides available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Illinois logic group:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Varies
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://calendar.math.illinois.edu/?regexp=Logic+Seminar&amp;interval=next+2+months&amp;use=Find">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         The Logic Supergroup
+        </strong>
+        (an alliance of logicians in quarantine)
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Varies
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://sites.google.com/view/logicsupergroup/the-logic-supergroup">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact the organizers to participate. Videos available at their webpage
+       </dd>
+       <br/>
+      </dl>
+      <h3>
+       Monday
+      </h3>
+      <dl>
+       <dt>
+        <strong>
+         TDE:
+        </strong>
+        Topological and Differential Expansions of O-minimal Structures
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Modays, 15:30 GMT
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="http://www1.maths.leeds.ac.uk/~pmtpe/TDE/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Zoom id to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         CUNY Logic:
+        </strong>
+        MOPA (Models of Peano Arithmetic) Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Tuesdays, 2pm local time (19:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://nylogic.github.io">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Victoria Gitman to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         University of Wisconsin:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Mondays, 3pm local time (20:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.math.wisc.edu/logic/seminar.html">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+      </dl>
+      <h3>
+       Tuesday
+      </h3>
+      <dl>
+       <dt>
+        <strong>
+         Tel Aviv:
+        </strong>
+        Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Tuesdays, 11am local time (9:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Kurt Gödel Research Center, Vienna:
+        </strong>
+        Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Tuesdays, 3pm local Time (13:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held using the Zoom software.
+        <a href="https://mathematik.univie.ac.at/en/research/seminars/seminars-at-the-kgrc/research-seminar-in-set-theory/?no_cache=1">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact the organizers to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         University of Notre Dame:
+        </strong>
+        Model Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Tuesdays, 10:45am local time (14:45 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://math.nd.edu/events/calendar/model-theory-seminars/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         CMU:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Tuesdays, 3:30pm Pittsburgh time (19:30 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.cmu.edu/math/news-events/logic_seminars.html">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+      </dl>
+      <h3>
+       Wednesday
+      </h3>
+      <dl>
+       <dt>
+        <strong>
+         Helsinki logic group:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 12m local time (10:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://wiki.helsinki.fi/display/Logic/Seminar">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Bar-Ilan University and Hebrew University:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 2pm local time (12:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://math.biu.ac.il/en/node/864">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Menachem Magidor to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Leeds:
+        </strong>
+        Models and Sets Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 13:45 GMT
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using Microsoft Teams or Zoom software.
+        <a href="https://beaadamday.com/index.php/models-and-sets/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact b.adam-day@leeds.ac.uk to participate. Slides of the talks avaliable at the webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Münster:
+        </strong>
+        Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 3:15pm local time (14:15 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.uni-muenster.de/Logik/Forschung/Research_Seminar_Set_Theory.html">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact rds@wwu.de to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Paris-Lyon:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 3pm local time (14:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using Zoom software.
+        <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/66">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Barcelona:
+        </strong>
+        Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 4pm local time (15:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact bagaria@ub.edu to particpate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Bristol and Oxford:
+        </strong>
+        Logic and Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 4pm local time (16:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.bristolmathsresearch.org/events/logic-and-set-theory/">
+         Bristol
+        </a>
+        <a href="http://jdh.hamkins.org/oxford-set-theory-seminar/">
+         Oxford
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Philip Welch to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Imperial College London:
+        </strong>
+        Logic and Model Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 4:15pm local time (16:15 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://www.imperial.ac.uk/a-z-research/algebra-and-algebraic-combinatorics/seminars--taught-courses/logic-seminar/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Zaniar Ghadernezhad to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Caltech:
+        </strong>
+        Logic seminars
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 12m pacific time (19:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="http://www.math.caltech.edu/~logic/">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Bogotá Logic Group:
+        </strong>
+        Seminario Flotante de Bogotá de Lógica Matemática
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Wednesdays, 4pm local time (21:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a href="https://sites.google.com/view/bogotalogica/courses-and-seminars/seminario-flotante-logmat">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk, videos, and slides available at their webpage
+       </dd>
+       <br/>
+      </dl>
+      <h3>
+       Thursday
+      </h3>
+      <dl>
+       <!--
                             <dt>
                                 <strong>Bar-Ilan University:</strong> Set Theory Seminar  
                             </dt>
@@ -877,96 +1242,174 @@
                             </dd>
                             <br>
                         -->
-
-                            <dt>
-                                <strong> Kurt G&#246del Research Center, Vienna:</strong> Logic Colloquium
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Thursdays, 3pm local Time (13:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held using the Zoom software. <a href="https://mathematik.univie.ac.at/en/research/seminars/seminars-at-the-kgrc/logic-colloquium/?no_cache=1">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact the organizers to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>CMU:</strong> Model Theory Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Thursdays, 11am Pittsburgh time (15:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software. <a class="external-link"href="https://www.cmu.edu/math/news-events/model_theory_seminars.html">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk and videos available at their webpage
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong> Online Logic Seminar</strong> (a collaborative work of logicians from many different institutions) 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Thursdays, 1pm US Central Daylight Time (18:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held using the Zoom software. <a href="http://lagrange.math.siu.edu/calvert/OnlineLogicSeminar.html">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Link to the talk, videos, and slides available at their webpage
-                            </dd>
-                            <br>
-                            
-                        </dl>
-                        
-                        <h3>Friday</h3>
-
-                        
-                        <dl>
-
-                            <dt>
-                                <strong>Cross-Alps Logic Seminar:</strong> Logic Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Fridays, 4:30pm local time (15:30 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using WebEx. <a href="http://udine.logicgroup.altervista.org/udine/seminars.php?lng=eng">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Luca Motto Ros to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong> Toronto:</strong> Set Theory seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Fridays, 1:30pm local Time (18:30 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held using the Zoom software. <a href="http://www.fields.utoronto.ca/activities/21-22/set-theory-seminar">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Ivan Ongay Valverde to participate
-                            </dd>
-                            <br>
-
-
-                            <dt>
-                                <strong>CUNY Logic:</strong> Set Theory Seminar 
-                            </dt>
-                            <dd>
-                                <strong>Time:</strong> Fridays, 2pm local time (18:00 GMT)
-                                <br>
-                                <strong>Information:</strong> The seminar will be held remotely using the Zoom software <a href="https://nylogic.github.io">Seminar</a>
-                                <br>
-                                <strong>Comments:</strong> Please contact Victoria Gitman to participate.
-                            </dd>
-                        </dl>
-                        <br>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-                miguelmath 2021
-        </footer>
-    </body>
+       <dt>
+        <strong>
+         Kurt Gödel Research Center, Vienna:
+        </strong>
+        Logic Colloquium
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Thursdays, 3pm local Time (13:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held using the Zoom software.
+        <a href="https://mathematik.univie.ac.at/en/research/seminars/seminars-at-the-kgrc/logic-colloquium/?no_cache=1">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact the organizers to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         CMU:
+        </strong>
+        Model Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Thursdays, 11am Pittsburgh time (15:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software.
+        <a class="external-link" href="https://www.cmu.edu/math/news-events/model_theory_seminars.html">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk and videos available at their webpage
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Online Logic Seminar
+        </strong>
+        (a collaborative work of logicians from many different institutions)
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Thursdays, 1pm US Central Daylight Time (18:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held using the Zoom software.
+        <a href="http://lagrange.math.siu.edu/calvert/OnlineLogicSeminar.html">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Link to the talk, videos, and slides available at their webpage
+       </dd>
+       <br/>
+      </dl>
+      <h3>
+       Friday
+      </h3>
+      <dl>
+       <dt>
+        <strong>
+         Cross-Alps Logic Seminar:
+        </strong>
+        Logic Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Fridays, 4:30pm local time (15:30 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using WebEx.
+        <a href="http://udine.logicgroup.altervista.org/udine/seminars.php?lng=eng">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Luca Motto Ros to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         Toronto:
+        </strong>
+        Set Theory seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Fridays, 1:30pm local Time (18:30 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held using the Zoom software.
+        <a href="http://www.fields.utoronto.ca/activities/21-22/set-theory-seminar">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Ivan Ongay Valverde to participate
+       </dd>
+       <br/>
+       <dt>
+        <strong>
+         CUNY Logic:
+        </strong>
+        Set Theory Seminar
+       </dt>
+       <dd>
+        <strong>
+         Time:
+        </strong>
+        Fridays, 2pm local time (18:00 GMT)
+        <br/>
+        <strong>
+         Information:
+        </strong>
+        The seminar will be held remotely using the Zoom software
+        <a href="https://nylogic.github.io">
+         Seminar
+        </a>
+        <br/>
+        <strong>
+         Comments:
+        </strong>
+        Please contact Victoria Gitman to participate.
+       </dd>
+      </dl>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer>
+   miguelmath 2022
+  </footer>
+ </body>
 </html>

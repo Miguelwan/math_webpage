@@ -1,125 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Mathematical researcher" />
-        <meta name="robots" content= "index,follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Miguel Moreno</title>
-        <link   
-            rel="stylesheet" href="./CSS/style.css"
-        />
-        
-        <link
-            rel="stylesheet"
-            href="./CSS/tablet.css"
-            media="screen and (min-width: 600px)"
-        />
-        <link
-            rel="stylesheet"
-            href="./CSS/desktop.css"
-            media="screen and (min-width: 1100px)"
-        />
-    </head>
-    <body>
-        <header>
-            <div class="fix_nav">
-                <div class="name">
-                    <h1>Miguel Moreno</h1>
-                    <p><h3>Postdoctoral researcher, <a  href="http://www.logic.univie.ac.at/Home.html"> 
-                    Institute of Mathematics, University of Vienna</a>.</h3></p>
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="http://miguelmath.com">Home</a></li>
-                        <li class="main-nav__item"><a href="Applied.html">Applications of Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Pure.html">Pure Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Popular.html">Popular Science</a> 
-                        <li class="main-nav__item"><a href="Extenr.html">Events and Links</a></li>
-                        <li class="main-nav__item"><a href="Contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="no_fix_nav">
-                <div class="name">
-                    <h1>Miguel Moreno</h1>
-                    <p><h3>Postdoctoral researcher, <a  href="http://www.logic.univie.ac.at/Home.html"> 
-                    Institute of Mathematics, University of Vienna</a>.</h3></p>
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li class="main-nav__item"><a href="http://miguelmath.com">Home</a></li>
-                        <li class="main-nav__item"><a href="Applied.html">Applications of Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Pure.html">Pure Mathematics</a></li>
-                        <li class="main-nav__item"><a href="Popular.html">Popular Science</a> 
-                        <li class="main-nav__item"><a href="Extenr.html">Events and Links</a></li>
-                        <li class="main-nav__item"><a href="Contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="container">
-            <div id="left_menu">
-                <a  href="https://github.com/Miguelwan">     
-                    <figure>
-                        <img
-                            src="./heads/Appl.jpg"
-                            alt="Picture of a forest in Finland"
-                        />
-                    </figure>
-                </a> 
-                <nav>
-                    <ul class="left-nav">
-                        <li class="left-nav__item"><a href="Progproj.html">Projects</a></li>
-                        <li class="left-nav__item"><a href="Templates.html">Programming Templates</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="main_text">
-                <h2>Applications of Mathematics</h2>
-                <div>
-                <h3>Projects</h3> 
-                <br>
-                <dl>
-                    <dt>
-                        <strong>BITCOIN VS ETHEREUM</strong> 
-                    </dt>
-                    <dd>
-                        In this project we use different tools of R to study the market cap of Bitcoin, Ethereum, and BAT, to determine whether there is an underlying relation between them. We conclude that there was a linear relation between Bitcoin and Ethereum, and no clear relation with BAT.
-                    </dd>
-                    <dd>
-                        <em>Languages: R.</em> <a href="./articles/BTC-ETH-BAT.pdf">Article</a> - <a href="./code/BTC-ETH-BAT.ipynb">Jupyter Notebook</a> - <a href="https://github.com/Miguelwan/trading_and_R">Github</a>
-                    </dd>
-                    <br>
-                    <dt>
-                        <strong>Parameters on SIRD</strong> 
-                    </dt>
-                    <dd>
-                        In this project we use Python to simulate a model of epidemiology, the model that we will use is a simplification of the SIRD model with vaccine. The goal of this notebook is to show how small changes in the parameters may produce big changes in the simulation. 
-                    </dd>    
-                    <dd>
-                        This notebook is to show an example of how mathematics is applied to other fields. It is not a project about epidemiology.
-                    </dd>
-                    <dd>
-                        <em>Languages: Python.</em> <a href="./articles/parameters.pdf">Article</a> - <a href="./code/parameters.ipynb">Jupyter Notebook</a> - <a href="https://github.com/Miguelwan/Parameters_on_SIRD">Github</a>
-                    </dd>
-                    <br>
-                    <dt>
-                        <strong>Toronto and NY venues</strong> 
-                    </dt>
-                    <dd>
-                        In this project we compare Toronto and New York venues, to determine the best investment options for these cities and which city is the best to invest for venues.
-                    </dd>
-                    <dd>
-                        <em>Languages: Python.</em> <a href="./articles/NY-To.pdf">Report</a> - <a href="./presn/pres-NY-To.pdf">Presentation</a> - <a href="./code/NY-To.ipynb">Jupyter Notebook</a> - <a href="https://github.com/Miguelwan/Torontoand-NY-venues">Github</a>
-                    </dd>
-                </dl>
-                </div>
-                <br>
-            </div>
-        </main>
-        <footer>
-                miguelmath 2021
-        </footer>
-    </body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="Mathematical researcher" name="description"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Miguel Moreno
+  </title>
+  <link href="./CSS/style.css" rel="stylesheet"/>
+  <link href="./CSS/tablet.css" media="screen and (min-width: 600px)" rel="stylesheet"/>
+  <link href="./CSS/desktop.css" media="screen and (min-width: 1100px)" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="fix_nav">
+    <div class="name">
+     <h1>
+      Miguel Moreno
+     </h1>
+     <p>
+      <h3>
+       Postdoctoral researcher,
+       <a href="http://www.logic.univie.ac.at/Home.html">
+        Institute of Mathematics, University of Vienna
+       </a>
+       .
+      </h3>
+     </p>
+    </div>
+    <nav>
+     <ul class="main-nav">
+      <li class="main-nav__item">
+       <a href="http://miguelmath.com">
+        Home
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Applied.html">
+        Applications of Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Pure.html">
+        Pure Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Popular.html">
+        Popular Science
+       </a>
+       <li class="main-nav__item">
+        <a href="Extenr.html">
+         Events and Links
+        </a>
+       </li>
+       <li class="main-nav__item">
+        <a href="Contact.html">
+         Contact
+        </a>
+       </li>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div class="no_fix_nav">
+    <div class="name">
+     <h1>
+      Miguel Moreno
+     </h1>
+     <p>
+      <h3>
+       Postdoctoral researcher,
+       <a href="http://www.logic.univie.ac.at/Home.html">
+        Institute of Mathematics, University of Vienna
+       </a>
+       .
+      </h3>
+     </p>
+    </div>
+    <nav>
+     <ul class="main-nav">
+      <li class="main-nav__item">
+       <a href="http://miguelmath.com">
+        Home
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Applied.html">
+        Applications of Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Pure.html">
+        Pure Mathematics
+       </a>
+      </li>
+      <li class="main-nav__item">
+       <a href="Popular.html">
+        Popular Science
+       </a>
+       <li class="main-nav__item">
+        <a href="Extenr.html">
+         Events and Links
+        </a>
+       </li>
+       <li class="main-nav__item">
+        <a href="Contact.html">
+         Contact
+        </a>
+       </li>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container">
+   <div id="left_menu">
+    <a href="https://github.com/Miguelwan">
+     <figure>
+      <img alt="Picture of a forest in Finland" src="./heads/Appl.jpg"/>
+     </figure>
+    </a>
+    <nav>
+     <ul class="left-nav">
+      <li class="left-nav__item">
+       <a href="Progproj.html">
+        Projects
+       </a>
+      </li>
+      <li class="left-nav__item">
+       <a href="Templates.html">
+        Programming Templates
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <div id="main_text">
+    <h2>
+     Applications of Mathematics
+    </h2>
+    <div>
+     <h3>
+      Projects
+     </h3>
+     <br/>
+     <dl>
+      <dt>
+       <strong>
+        BITCOIN VS ETHEREUM
+       </strong>
+      </dt>
+      <dd>
+       In this project we use different tools of R to study the market cap of Bitcoin, Ethereum, and BAT, to determine whether there is an underlying relation between them. We conclude that there was a linear relation between Bitcoin and Ethereum, and no clear relation with BAT.
+      </dd>
+      <dd>
+       <em>
+        Languages: R.
+       </em>
+       <a href="./articles/BTC-ETH-BAT.pdf">
+        Article
+       </a>
+       -
+       <a href="./code/BTC-ETH-BAT.ipynb">
+        Jupyter Notebook
+       </a>
+       -
+       <a href="https://github.com/Miguelwan/trading_and_R">
+        Github
+       </a>
+      </dd>
+      <br/>
+      <dt>
+       <strong>
+        Parameters on SIRD
+       </strong>
+      </dt>
+      <dd>
+       In this project we use Python to simulate a model of epidemiology, the model that we will use is a simplification of the SIRD model with vaccine. The goal of this notebook is to show how small changes in the parameters may produce big changes in the simulation.
+      </dd>
+      <dd>
+       This notebook is to show an example of how mathematics is applied to other fields. It is not a project about epidemiology.
+      </dd>
+      <dd>
+       <em>
+        Languages: Python.
+       </em>
+       <a href="./articles/parameters.pdf">
+        Article
+       </a>
+       -
+       <a href="./code/parameters.ipynb">
+        Jupyter Notebook
+       </a>
+       -
+       <a href="https://github.com/Miguelwan/Parameters_on_SIRD">
+        Github
+       </a>
+      </dd>
+      <br/>
+      <dt>
+       <strong>
+        Toronto and NY venues
+       </strong>
+      </dt>
+      <dd>
+       In this project we compare Toronto and New York venues, to determine the best investment options for these cities and which city is the best to invest for venues.
+      </dd>
+      <dd>
+       <em>
+        Languages: Python.
+       </em>
+       <a href="./articles/NY-To.pdf">
+        Report
+       </a>
+       -
+       <a href="./presn/pres-NY-To.pdf">
+        Presentation
+       </a>
+       -
+       <a href="./code/NY-To.ipynb">
+        Jupyter Notebook
+       </a>
+       -
+       <a href="https://github.com/Miguelwan/Torontoand-NY-venues">
+        Github
+       </a>
+      </dd>
+     </dl>
+    </div>
+    <br/>
+   </div>
+  </main>
+  <footer>
+   miguelmath 2022
+  </footer>
+ </body>
 </html>
