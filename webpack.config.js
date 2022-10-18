@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'drforna.js',
+        filename: 'bundle.js',
     },
     devtool: 'source-map',
     plugins: [

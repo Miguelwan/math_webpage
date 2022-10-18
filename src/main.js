@@ -74,7 +74,7 @@ function getUTC(today){
 function start() {   
     let current_time = new Date(getUTC(new Date()));
     //console.log(current_time)
-    d3.text("data.csv").then(d => {
+    d3.text("CSV/data.csv").then(d => {
         let  a = d3.csvParse(d)           
         ShowData(a)
     })
@@ -145,7 +145,7 @@ function searchV(data){
   
   }
 function startV() {  
-      d3.text("records.csv").then(d => {
+      d3.text("CSV/records.csv").then(d => {
           let  dv = d3.csvParse(d)    
           
             

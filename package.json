@@ -4,11 +4,6 @@
   "description": "",
   "author": "Anda",
   "license": "ISC",
- 
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx webpack serve"
-  },
   "scripts": {
     "serve": "webpack serve --mode development",
     "watch": "webpack --config webpack.config.js --mode development --watch",
@@ -23,6 +18,5 @@
   },
   "dependencies": {
     "d3": "^7.6.1"
-    
   }
 }
