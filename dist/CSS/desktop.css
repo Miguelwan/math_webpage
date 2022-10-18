@@ -1,0 +1,26 @@
+#left_menu{
+    width: 20%;
+    position: fixed;
+    height: 100%
+}
+#main_text{
+    padding-left: 20%;
+}
+.two_blocks {
+      display: flex;
+}
+#second_row{
+    width: 50%;
+}
+#third_row{
+    width: 50%;
+    border-left: 2px solid black;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    margin: 0rem;
+    z-index: 1;
+}
