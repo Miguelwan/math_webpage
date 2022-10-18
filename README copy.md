@@ -2,4 +2,6 @@
 ## To start this project in development mode, please run:
 
   `npm install`  
-  `npm start`
+  `npm run serve`
+  `npm run build`
+  
