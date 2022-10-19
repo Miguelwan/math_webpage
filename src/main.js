@@ -14,7 +14,8 @@ function PLOT(data){
     let days=viscontainer.selectAll("#days")
                 .data(weekdays).enter().append("div").attr("class","talk").attr("id", d=>d).style("padding", "20px")
     
-    days.append("dl").append("h3").text(d=>d).style("font-weight", "bold")
+    days.append("dl").attr("class","day").append("h3").text(d=>d).style("font-weight", "bold")
+    days.append("br")
    
 let nested_data = Array.from(d3.group(data, d =>d.Day))
 console.log(nested_data)
@@ -25,29 +26,12 @@ nested_data.forEach(dd=>{
     let tt= talk.selectAll("dt").data(dd[1])
     .enter().append("dt")
     tt.append("h4").text(e=>e.Seminar )
-    tt.append("dd").text(e=>"Speaker: "+e.Speaker )
-    tt.append("dd").text(e=>"Title: "+e.Title )
-    tt.append("dd").text(e=>"Time: "+e.Time )
+    tt.append("dd").html(e=>"<strong> Speaker:</strong>  "+e.Speaker )
+    tt.append("dd").html(e=>"<strong> Title:</strong>  "+e.Title )
+    tt.append("dd").html(e=>"<strong> Time: </strong> "+e.Time)
+    tt.append("br")
     
-
-    
-
 })
-
-
-    // let conf = viscontainer.selectAll("#confereces")
-    //                         .data(data) // bind data
-    //                         .enter()   
-    //                         .append("div")
-    //                         .attr("class", "talk" )
-    //                         .style("padding", "20px")
-    //                         .append("table")
-    //                         //.style("background-color"," #eaedfa");
-    // data.columns.forEach(e=>{ //for each column   
-    //     conf.append("tr")       
-    //     conf.append("td").text(e+":  ").style("font-weight", "bold")
-    //     conf.append("td").text(d=>d[e])})
-
 }
 //"Unique_Index";"Seminar";"Time";"Speaker";"Title";"Abstract";"Information"
 function ShowData(data){
