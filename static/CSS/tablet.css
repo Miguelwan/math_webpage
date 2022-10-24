@@ -1,0 +1,39 @@
+
+.fix_nav{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    margin: 0rem;
+    background-color: #c7c2c1;
+    z-index: 1;
+}
+
+.no_fix_nav{
+    display: block;
+    top: 0;
+    width: 100%; 
+    margin: 0rem;
+    background-color: #c7c2c1;
+}
+
+
+
+.container {
+      display: flex;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a::after {
+  content: " | ";
+}
+#left_menu{
+    width: 30%;
+    background-color: green;
+    padding-top: 1px;
+}
+#main_text{
+    width: 100%;
+}
