@@ -118,7 +118,16 @@ img {
     display: none;
 }
 
-
 .video{
     padding: 10px;
+}
+
+.badges_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news_list{
+    list-style: none
 }
